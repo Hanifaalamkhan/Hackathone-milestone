@@ -1,0 +1,119 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Merriweather', serif; /* A classic, elegant serif font */
+    margin: 20px;
+    padding: 0;
+    background-color: #f7fafc; /* Very light blue-grey for a soft background */
+    color: #333; /* Dark grey for text for good readability */
+}
+
+form {
+    margin: auto;
+    background-color: #ffffff; /* White */
+    border-radius: 12px; /* More rounded corners for a modern look */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Softer shadow for a clean feel */
+    padding: 35px;
+    max-width: 750px; /* Wider form for a better layout */
+}
+
+h1 {
+    text-align: center;
+    color: #4C6B8B; /* Soft blue for the header */
+    font-family: 'Playfair Display', serif; /* Elegant, high-contrast serif for headings */
+    font-size: 42px; /* Larger font size for emphasis */
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #3C8D99; /* Muted teal for a professional look */
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #f1f9fb; /* Light teal background for contrast */
+}
+
+legend {
+    font-weight: 700;
+    text-align: left;
+    color: #2C3E50; /* Darker blue-grey for the legend text */
+    font-size: 20px;
+    font-family: 'Merriweather', serif; /* Elegant serif for legends */
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-size: 16px;
+    color: #4C4C4C; /* Dark grey for readability */
+    font-family: 'Merriweather', serif; /* Consistent serif font for labels */
+}
+
+input, textarea {
+    margin-top: 8px;
+    padding: 14px;
+    width: 100%;
+    border: 1px solid #D1D8E0; /* Soft border color */
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f8f9fa; /* Light grey background for inputs */
+    font-family: 'Merriweather', serif; /* Elegant serif font for inputs */
+}
+
+input:focus, textarea:focus {
+    border-color: #4C6B8B; /* Highlighted border color on focus */
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #5C8F94; /* Muted teal-green for buttons */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 18px;
+    font-size: 18px;
+    padding: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Playfair Display', serif; /* Elegant serif for the button */
+}
+
+button:hover {
+    background-color: #4C6B8B; /* Darker teal for hover effect */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+#resume-display {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #3C8D99; /* Muted teal border for consistency */
+    border-radius: 12px;
+    background-color: #ffffff; /* White background for resume display */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #4C6B8B; /* Soft blue for section headings */
+    font-family: 'Playfair Display', serif; /* Elegant serif for resume section headings */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Additional styling for better readability and smooth design */
+input, textarea, button {
+    font-family: 'Merriweather', serif;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #A1B1C1; /* Subtle grey placeholder text */
+}
+
+button:active {
+    transform: translateY(1px); /* Slight push effect on button click */
+}
